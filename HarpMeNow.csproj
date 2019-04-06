@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74DCA410-DBF5-4FBE-B841-19941B810E6E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HarpMeNow</RootNamespace>
+    <AssemblyName>HarpMeNow</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BasicClassLibrary, Version=2018.3.2.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SELibraries\Lib\BasicClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MidiOutApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MidiKeyboard\bin\Debug\MidiOutApi.dll</HintPath>
+    </Reference>
+    <Reference Include="SEHotSpot, Version=2018.12.16.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SELibraries\Lib\SEHotSpot.dll</HintPath>
+    </Reference>
+    <Reference Include="SELibraries, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SELibraries\Lib\SELibraries.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppStorageClass.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CounterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CounterForm.Designer.cs">
+      <DependentUpon>CounterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HarpClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CounterForm.resx">
+      <DependentUpon>CounterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floppy_x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_open_document_22x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\achtel_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\achtel_note_black_24px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_blue_x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross_red_x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_playlist_shuffle_blue_x22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_playlist_shuffle_x22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dreiachtel_note_black_px24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dreiviertel_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\halbe_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sechzehntel_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viertel_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_mode_px24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edn_edit_px24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_left_blue32x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go_previous32x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_remove_24x.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
