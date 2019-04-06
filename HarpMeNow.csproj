@@ -41,7 +41,7 @@
     </Reference>
     <Reference Include="MidiOutApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\MidiKeyboard\bin\Debug\MidiOutApi.dll</HintPath>
+      <HintPath>MidiOutApi\obj\Debug\MidiOutApi.dll</HintPath>
     </Reference>
     <Reference Include="SEHotSpot, Version=2018.12.16.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
