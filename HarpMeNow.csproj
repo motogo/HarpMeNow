@@ -34,10 +34,22 @@
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>HarpMeNowApp.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="BasicClassLibrary, Version=2018.3.2.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\SELibraries\Lib\BasicClassLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport">
+      <HintPath>C:\FastReports\FastReport.Net\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor">
+      <HintPath>C:\FastReports\FastReport.Net\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteDB, Version=4.1.4.0, Culture=neutral, PublicKeyToken=4ee40123013c9f27, processorArchitecture=MSIL">
+      <HintPath>packages\LiteDB.4.1.4\lib\net40\LiteDB.dll</HintPath>
     </Reference>
     <Reference Include="MidiOutApi, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -62,12 +74,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppStorageClass.cs" />
-    <Compile Include="MainForm.cs">
+    <Compile Include="AirSlotClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AirSlotsClass.cs" />
+    <Compile Include="AppMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="AppMainForm.Designer.cs">
+      <DependentUpon>AppMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompanyForm.Designer.cs">
+      <DependentUpon>CompanyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnumClass.cs" />
+    <Compile Include="FBXInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FBXInfo.designer.cs">
+      <DependentUpon>FBXInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormsInstancesClass.cs" />
+    <Compile Include="HarpEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HarpEditForm.Designer.cs">
+      <DependentUpon>HarpEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HarpInstrumentClass.cs" />
+    <Compile Include="HarpPlayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HarpPlayForm.Designer.cs">
+      <DependentUpon>HarpPlayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HarpSequenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HarpSequenceForm.Designer.cs">
+      <DependentUpon>HarpSequenceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HarpSlotsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HarpSlotsForm.Designer.cs">
+      <DependentUpon>HarpSlotsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CounterForm.cs">
       <SubType>Form</SubType>
@@ -76,14 +130,86 @@
       <DependentUpon>CounterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="HarpClass.cs" />
+    <Compile Include="InstrumentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InstrumentsForm.Designer.cs">
+      <DependentUpon>InstrumentsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageResource_de-DE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageResource_de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageResource_en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageResource_en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="NotesDefinitionClass.cs" />
+    <Compile Include="PlayHarpClass.cs" />
+    <Compile Include="PlayHarpNoteClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="SelectedClass.cs" />
+    <Compile Include="SharedStorageClasses.cs" />
+    <Compile Include="SlotEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlotEditForm.Designer.cs">
+      <DependentUpon>SlotEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SongSequenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SongSequenceForm.Designer.cs">
+      <DependentUpon>SongSequenceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoundAttributesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoundAttributesForm.Designer.cs">
+      <DependentUpon>SoundAttributesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQDataClass.cs" />
+    <Compile Include="Statics.cs" />
+    <EmbeddedResource Include="AppMainForm.resx">
+      <DependentUpon>AppMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompanyForm.resx">
+      <DependentUpon>CompanyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FBXInfo.resx">
+      <DependentUpon>FBXInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HarpEditForm.resx">
+      <DependentUpon>HarpEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HarpPlayForm.resx">
+      <DependentUpon>HarpPlayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HarpSequenceForm.resx">
+      <DependentUpon>HarpSequenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HarpSlotsForm.resx">
+      <DependentUpon>HarpSlotsForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="CounterForm.resx">
       <DependentUpon>CounterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InstrumentsForm.resx">
+      <DependentUpon>InstrumentsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageResource_de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LanguageResource_de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageResource_en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LanguageResource_en-US.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,7 +221,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SlotEditForm.resx">
+      <DependentUpon>SlotEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SongSequenceForm.resx">
+      <DependentUpon>SongSequenceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoundAttributesForm.resx">
+      <DependentUpon>SoundAttributesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,9 +279,6 @@
     <None Include="Resources\halbe_note_black_24px.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\sechzehntel_note_black_24px.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\viertel_note_black_24px.png" />
   </ItemGroup>
   <ItemGroup>
@@ -162,6 +295,105 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\trash_remove_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viertel_note_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\translate_and_play_x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_about_gn_x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_about_blue_x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\halbe_note_black_18x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_black_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_2_black_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_3_black_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_4_black_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\achtel_note_3_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_5_black_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_6_black_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_7_black_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganze_note_8_black_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viertel_note_black_px24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrange_forms_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snd_on_24x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_playlist_repeat_blue_x22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font_x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harp_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font2_x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sechzehntel_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zweiundreisigstel_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drei_sechzehntel_note_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drei_sechzehntel_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dreihalbe_note_black_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harpImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="HarpMeNowApp.ico" />
+    <None Include="Resources\document_blue_x24.png" />
+    <None Include="Resources\database_arrow_l_x32.png" />
+    <None Include="Resources\database_arrow_l_blue_x32.png" />
+    <None Include="Resources\database_arrow_r_x32.png" />
+    <None Include="Resources\database_arrow_r_blue_x32.png" />
+    <None Include="Resources\database_arrow_r_blue.png" />
+    <None Include="Resources\database_arrow_r.png" />
+    <None Include="Resources\ok_gn32x.png" />
+    <None Include="Resources\ok_blue32x.png" />
+    <None Include="Resources\view_refresh32x.png" />
+    <None Include="Resources\view_refresh_2_32x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

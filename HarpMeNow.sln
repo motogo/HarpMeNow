@@ -4,8 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarpMeNow", "HarpMeNow.csproj", "{74DCA410-DBF5-4FBE-B841-19941B810E6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0251E93E-BA70-4D71-A9BD-029B33688045} = {0251E93E-BA70-4D71-A9BD-029B33688045}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiOutApi", "MidiOutApi\MidiOutApi.csproj", "{0251E93E-BA70-4D71-A9BD-029B33688045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageLibrary", "..\SELibrariesSource\MessageLibrary\MainSource\MessageLibrary.csproj", "{AB3D96FF-F14C-4CE1-A8F9-1F888D0B94F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{0251E93E-BA70-4D71-A9BD-029B33688045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0251E93E-BA70-4D71-A9BD-029B33688045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0251E93E-BA70-4D71-A9BD-029B33688045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3D96FF-F14C-4CE1-A8F9-1F888D0B94F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3D96FF-F14C-4CE1-A8F9-1F888D0B94F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3D96FF-F14C-4CE1-A8F9-1F888D0B94F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3D96FF-F14C-4CE1-A8F9-1F888D0B94F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

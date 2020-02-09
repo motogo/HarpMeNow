@@ -118,61 +118,172 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cross_blue_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cross_blue_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="database_arrow_r_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_arrow_r_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="achtel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\achtel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="media_playlist_shuffle_x22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\media_playlist_shuffle_x22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="viertel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\viertel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sechzehntel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sechzehntel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ganze_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ganze_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="floppy_x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\floppy_x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="media_playlist_shuffle_blue_x22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\media_playlist_shuffle_blue_x22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="go_left_blue32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\go_left_blue32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="achtel_note_black_24px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\achtel_note_black_24px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="folder_open_document_22x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\folder_open_document_22x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dreiviertel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dreiviertel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="edn_edit_px24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edn_edit_px24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dreiachtel_note_black_px24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dreiachtel_note_black_px24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="edit_mode_px24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit_mode_px24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="go_previous32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\go_previous32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="font_x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font_x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cross_red_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cross_red_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="media_playlist_repeat_blue_x22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media_playlist_repeat_blue_x22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achtel_note_black_24px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\achtel_note_black_24px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_on_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snd_on_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zweiundreisigstel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zweiundreisigstel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open_document_22x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_open_document_22x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_mode_px24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_mode_px24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dreiachtel_note_black_px24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dreiachtel_note_black_px24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sechzehntel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sechzehntel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_playlist_shuffle_blue_x22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media_playlist_shuffle_blue_x22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edn_edit_px24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edn_edit_px24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="harp_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\harp_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="halbe_note_black_18x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\halbe_note_black_18x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_arrow_r_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_arrow_r_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_5_black_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_5_black_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_about_blue_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_about_blue_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view_refresh32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view_refresh32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="media_playlist_shuffle_x22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\media_playlist_shuffle_x22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="floppy_x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\floppy_x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrange_forms_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrange_forms_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drei_sechzehntel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drei_sechzehntel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_8_black_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_8_black_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dreiviertel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dreiviertel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drei_sechzehntel_note_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drei_sechzehntel_note_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_arrow_r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_arrow_r.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="translate_and_play_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\translate_and_play_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross_blue_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_blue_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok_gn32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ok_gn32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="view_refresh_2_32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\view_refresh_2_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_black_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_black_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dreihalbe_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dreihalbe_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viertel_note_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viertel_note_black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="viertel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\viertel_note_black_px24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_arrow_r_blue_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_arrow_r_blue_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="halbe_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\halbe_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="help_about_gn_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_about_gn_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="harp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\harp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="go_left_blue32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\go_left_blue32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="go_previous32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\go_previous32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_6_black_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_6_black_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_7_black_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_7_black_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="font2_x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\font2_x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_4_black_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_4_black_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_arrow_l_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_arrow_l_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database_arrow_l_blue_x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_arrow_l_blue_x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="trash_remove_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trash_remove_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achtel_note_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\achtel_note_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ok_blue32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ok_blue32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_3_black_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_3_black_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achtel_note_3_black_24px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\achtel_note_3_black_24px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="harpImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\harpImg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ganze_note_2_black_24x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ganze_note_2_black_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_blue_x24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\document_blue_x24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

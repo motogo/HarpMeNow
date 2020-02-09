@@ -364,6 +364,13 @@ namespace MidiOutApi.Api {
 			midiOutShortMsg(handle, wheel);
 		} //ApplyWheel
 
+
+
+        byte transpose = 0;
+        public void SetTranspose(byte trpose)
+        {
+            transpose = trpose;
+        }
         public void SetVolume(double volume)
         {
             /*
@@ -383,7 +390,9 @@ namespace MidiOutApi.Api {
            int retval = waveOutSetVolume(IntPtr.Zero, vAll);
         }
 
-		public void SetPercussionInstrument(GeneralMidiPercussiobInstrument instrument) {
+       
+
+        public void SetPercussionInstrument(GeneralMidiPercussiobInstrument instrument) {
 			int program = (int)ChannelCommand.ProgramChange | (int)instrument << 8 | PercussionChannel;
 			midiOutShortMsg(handle, program);
 		} //SetPercussionInstrument
@@ -397,13 +406,20 @@ namespace MidiOutApi.Api {
 		} //PercussionOff
 
 		public void NoteOn(byte note, byte velocity, byte channel) {
+
+            note+=transpose;
+
 			int command = note << 8 | velocity << 2 * 8 | (int)ChannelCommand.NoteOn | channel;
+            
+          
 			midiOutShortMsg(handle, command);
 		} //NoteOn
 
 		public void NoteOff(byte note, byte velocity, byte channel) {
+            note+=transpose;
 			int command = (note << 8) | (velocity << 2 * 8) | (int)ChannelCommand.NoteOff | channel;
-			midiOutShortMsg(handle, command);
+            
+            midiOutShortMsg(handle, command);
 		} //NoteOff
 
 		public void NoteOn(byte note, byte velocity) {
